@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import org.controlsfx.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="704.0" prefWidth="823.0" style="-fx-background-color: #1acccc;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cms.StudentRegistrationController">
+   <children>
+      <JFXTextField fx:id="id" labelFloat="true" layoutX="35.0" layoutY="118.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="ID" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="fname" labelFloat="true" layoutX="35.0" layoutY="169.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Full Name" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="birth" labelFloat="true" layoutX="35.0" layoutY="217.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Birth" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="maritalStatus" labelFloat="true" layoutX="35.0" layoutY="261.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Marital Status" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="nationality" labelFloat="true" layoutX="35.0" layoutY="310.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Nationality" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="address" labelFloat="true" layoutX="35.0" layoutY="358.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Address" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="cellnum" labelFloat="true" layoutX="35.0" layoutY="399.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Cell Number" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="district" labelFloat="true" layoutX="35.0" layoutY="448.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="District" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="country" labelFloat="true" layoutX="35.0" layoutY="496.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Country" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="gender" labelFloat="true" layoutX="35.0" layoutY="540.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Gender" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="poBirth" labelFloat="true" layoutX="35.0" layoutY="589.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Place of Birth" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="religion" labelFloat="true" layoutX="35.0" layoutY="637.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Religion" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="email" labelFloat="true" layoutX="450.0" layoutY="114.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Email" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="bloodGroup" labelFloat="true" layoutX="450.0" layoutY="165.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Blood Group" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="sscPassYear" labelFloat="true" layoutX="450.0" layoutY="213.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="SSC Passing Year" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="sscGPA" labelFloat="true" layoutX="450.0" layoutY="257.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="SSC GPA" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="fathersName" labelFloat="true" layoutX="450.0" layoutY="306.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Fathers Name" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="fathersOccupation" labelFloat="true" layoutX="450.0" layoutY="354.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Fathers Occupation" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="fathersCellnum" labelFloat="true" layoutX="450.0" layoutY="395.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Fathers Cell Number" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="mothersName" labelFloat="true" layoutX="450.0" layoutY="444.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Mohers name" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="mothersOccupation" labelFloat="true" layoutX="450.0" layoutY="492.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Mothers Occupation" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="mothersCellnum" labelFloat="true" layoutX="450.0" layoutY="536.0" maxWidth="299.0" minWidth="242.0" prefHeight="31.0" prefWidth="299.0" promptText="Mothers Cell Number" unFocusColor="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font></JFXTextField>
+      <Label layoutX="291.0" layoutY="15.0" text="Students Registration">
+         <font>
+            <Font name="Bell MT" size="27.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="14.0" layoutY="10.0" maxWidth="-Infinity" onAction="#ReturnToApplicationPage" opacity="0.6" prefHeight="43.0" prefWidth="0.0" style="-fx-background-color: #1acccc;" text=" " textFill="WHITE">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="85.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/backarrow.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="772.0" layoutY="10.0" maxWidth="-Infinity" onAction="#Submit" opacity="0.6" prefHeight="43.0" prefWidth="0.0" style="-fx-background-color: #1acccc;" text=" " textFill="WHITE">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="85.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/submit.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

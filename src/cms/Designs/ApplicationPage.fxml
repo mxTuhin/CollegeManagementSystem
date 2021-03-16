@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="438.0" prefWidth="729.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cms.ApplicationPageController">
+   <children>
+      <JFXButton layoutX="687.0" maxWidth="-Infinity" onAction="#SignIn" prefHeight="43.0" prefWidth="0.0" style="-fx-background-color: white;" text=" " textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="85.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/logoutt.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="1.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="75.0" layoutY="71.0" maxWidth="-Infinity" onAction="#StudentRegistration" prefHeight="43.0" prefWidth="0.0" style="-fx-background-color: white; -fx-background-radius: 100;" text=" " textFill="WHITE">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="114.0" fitWidth="105.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/sRegistration.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="306.0" layoutY="71.0" maxWidth="-Infinity" onAction="#StudentInformation" prefHeight="43.0" prefWidth="0.0" style="-fx-background-color: white; -fx-background-radius: 100;" text=" " textFill="WHITE">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="114.0" fitWidth="105.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/sInfo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="537.0" layoutY="71.0" maxWidth="-Infinity" onAction="#SignIn" prefHeight="43.0" prefWidth="0.0" style="-fx-background-color: white; -fx-background-radius: 100;" text=" " textFill="WHITE">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="114.0" fitWidth="105.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/tInfo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <Label layoutX="59.0" layoutY="191.0" text="Student Registration">
+         <font>
+            <Font name="Baskerville Old Face" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="283.0" layoutY="191.0" text="Student Information">
+         <font>
+            <Font name="Baskerville Old Face" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="515.0" layoutY="191.0" text="Teachers Information">
+         <font>
+            <Font name="Baskerville Old Face" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="564.0" layoutY="375.0" text="TBA :3 ">
+         <font>
+            <Font name="Baskerville Old Face" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="332.0" layoutY="375.0" text="TBA :3 ">
+         <font>
+            <Font name="Baskerville Old Face" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="375.0" text="Staff Information">
+         <font>
+            <Font name="Baskerville Old Face" size="18.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="540.0" layoutY="255.0" maxWidth="-Infinity" onAction="#SignIn" prefHeight="43.0" prefWidth="0.0" style="-fx-background-color: white; -fx-background-radius: 100;" text=" " textFill="WHITE">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="114.0" fitWidth="105.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/tba.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="309.0" layoutY="255.0" maxWidth="-Infinity" onAction="#SignIn" prefHeight="43.0" prefWidth="0.0" style="-fx-background-color: white; -fx-background-radius: 100;" text=" " textFill="WHITE">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="114.0" fitWidth="105.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/tba.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="78.0" layoutY="255.0" maxWidth="-Infinity" onAction="#SignIn" prefHeight="43.0" prefWidth="0.0" style="-fx-background-color: white; -fx-background-radius: 100;" text=" " textFill="WHITE">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="114.0" fitWidth="105.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/staff.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

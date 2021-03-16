@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="440.0" prefWidth="830.0" style="-fx-background-color: #20120F;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cms.SignInController">
+   <children>
+      <AnchorPane layoutX="478.0" layoutY="39.0" prefHeight="360.0" prefWidth="308.0" style="-fx-background-color: #1acccc;">
+         <padding>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </padding>
+         <children>
+            <JFXTextField fx:id="signin_username" labelFloat="true" layoutX="21.0" layoutY="103.0" maxWidth="267.0" minWidth="267.0" prefHeight="31.0" prefWidth="267.0" promptText="Username" unFocusColor="WHITE">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font></JFXTextField>
+            <Label layoutX="100.0" layoutY="26.0" text="Sign In" textFill="#792929">
+               <font>
+                  <Font name="Bell MT" size="32.0" />
+               </font>
+            </Label>
+            <JFXButton buttonType="RAISED" layoutX="21.0" layoutY="246.0" onAction="#SignIn" prefHeight="25.0" prefWidth="267.0" style="-fx-background-color: #12f9de; -fx-background-radius: 100;" text="Sign In" textFill="#d01111">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXPasswordField fx:id="signin_password" labelFloat="true" layoutX="21.0" layoutY="175.0" maxWidth="267.0" minWidth="267.0" prefHeight="31.0" prefWidth="267.0" promptText="Password" unFocusColor="WHITE">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </JFXPasswordField>
+            <Hyperlink layoutX="62.0" layoutY="306.0" onAction="#SignUp" text="Dont Have an account? Sign Up" textFill="#d31111" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="458.0" fitWidth="634.0" layoutX="-205.0" layoutY="-8.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/SoftImage.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="69.0" layoutY="331.0" onAction="#SignUp" prefHeight="25.0" prefWidth="267.0" style="-fx-background-color: #12f9de; -fx-background-radius: 100;" text="Sign Up" textFill="#d01111">
+         <font>
+            <Font name="Bell MT" size="15.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="9.0" layoutY="120.0" text="Welcome to the College Management System" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

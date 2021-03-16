@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CMS">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/CMS.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
